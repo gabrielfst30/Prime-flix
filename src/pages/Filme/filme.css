@@ -1,0 +1,66 @@
+
+.filme-info{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 8px;
+
+}
+
+.filme-info h1{
+    margin: 14px 0;
+
+
+}
+
+.filme-info img{
+    border-radius: 4px;
+    width: 900px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover; /*encaixa a imagem melhor no tamanho definido*/
+
+}
+
+.filme-info h3{
+    margin-top: 14px;
+
+}
+
+.filme-info span{
+    margin: 8px 0;
+
+}
+
+.area-buttons button{
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-left: 0;
+    font-size: 20px;
+    border: 0ch;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.area-buttons button:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+.area-buttons a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+
+}
+
+.area-buttons a:hover{
+    color: white;
+
+}
